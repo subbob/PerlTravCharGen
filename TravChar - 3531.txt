@@ -1,0 +1,43 @@
+	Lieutenant Avis Smith (Female) 22 years old
+
+	Created at 
+
+	Enlisted in the Army
+
+	STR: 8  ->  8
+	DEX: 8  ->  8
+	END: 4  ->  4
+	INT: C  ->  C
+	EDU: 8  ->  A
+	SOC: A  ->  A
+
+	Served 1 terms in the Army, Rank: Lieutenant (1)
+
+	Status: Forced Out
+
+	Skills
+
+	Gambling: 1
+	Halberd: 1
+	Rifle: 1
+	Submachinegun: 1
+	Tactics: 1
+
+	Cash: $0
+
+	History
+
+	Term 0 Events
+		ServiceSkills: Gained service skill: Rifle
+
+	Term 1 Events
+		Commissioned
+		Promoted to Rank 1 (Lieutenant)
+		RankSkills: Gained service rank skill: Submachinegun
+		Gambling
+		Halberd
+		Tactics
+		Failed to reenlist
+		Mustered Out
+		  +2 EDU
+		  Mid Psg

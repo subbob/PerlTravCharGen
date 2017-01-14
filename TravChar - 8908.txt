@@ -1,0 +1,93 @@
+	Captain Arielle Ochenfeld (Female) 46 years old
+
+	Created at 
+
+	Enlisted in the Merchants
+
+	STR: B  ->  C
+	DEX: 9  ->  B
+	END: 7  ->  5
+	INT: 9  ->  C
+	EDU: 6  ->  B
+	SOC: 4  ->  4
+
+	Served 7 terms in the Merchants, Rank: Captain (5)
+
+	Status: Retired ($8000 annually)
+
+	Skills
+
+	Body Pistol: 1
+	Electronic: 1
+	Jack-o-T: 1
+	Medical: 1
+	Navigation: 1
+	Pilot: 1
+	Steward: 1
+	Submachine Gun: 1
+	Vacc Suit: 1
+
+	Cash: $70000
+
+	History
+
+	Term 0 Events
+
+	Term 1 Events
+		Commissioned
+		Promoted to Rank 1 (4th Officer)
+		Stat Mod: +1 STR
+		Vacc Suit
+		Stat Mod: +1 STR
+		Successfully reenlisted
+
+	Term 2 Events
+		Promoted to Rank 2 (3rd Officer)
+		Navigation
+		Submachine Gun
+		Successfully reenlisted
+
+	Term 3 Events
+		Promoted to Rank 3 (2nd Officer)
+		Jack-o-T
+		Steward
+		Successfully reenlisted
+
+	Term 4 Events
+		Stat Mod: +1 DEX
+		-1 END due to aging
+		Mandatory reenlistment
+
+	Term 5 Events
+		Promoted to Rank 4 (1st Officer)
+		Gained service rank skill: Pilot
+		Body Pistol
+		Stat Mod: +1 STR
+		Successfully reenlisted
+
+	Term 6 Events
+		Promoted to Rank 5 (Captain)
+		Medical
+		Electronic
+		-1 STR due to aging
+		-1 END due to aging
+		Successfully reenlisted
+
+	Term 7 Events
+		Stat Mod: +1 DEX
+		-1 STR due to aging
+		Retired at end of term
+		Retired
+		Earned 8000 annual retirement pay
+		Mustered Out
+		  20000
+		  +1 EDU
+		  10000
+		  40000
+		  +1 EDU
+		  +1 INT
+		  +1 INT
+		  +1 INT
+		  +1 EDU
+		  +1 EDU
+		  +1 EDU

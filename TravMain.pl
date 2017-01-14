@@ -23,8 +23,12 @@ my $FILTER_LIMIT = 120000;			# Limits number of failed characters in Automatic G
 
 $PRINT_HISTORY = 1;					# Sets level of detailed term history (1 = ON)
 
+
+
 my $ReportValue = 2000;				# Report every [#] characters in Auto Mode
 my $ShowStatus = 1;					# Report filter status in Auto Mode
+
+print "Type RANK=0+ SERVICE=ANY/NAVYetc TERMS=0+ then enter\n";
 
 if (@ARGV > 0)
 {
@@ -33,6 +37,7 @@ if (@ARGV > 0)
 	$DEAD_FILTER = 1;
 	for (my $ctr=0; $ctr < @ARGV; $ctr++)
 	{
+    print "ctr $ctr\n";
 		if ($ARGV[$ctr] =~ /^RANK=(.+)$/i)
 		{
 			$RANK_FILTER = $1;

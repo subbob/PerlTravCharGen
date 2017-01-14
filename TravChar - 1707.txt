@@ -1,0 +1,34 @@
+	Edmund Cooper (Male) 22 years old
+
+	Created at 
+
+	Enlisted in the Navy
+
+	STR: A  ->  A
+	DEX: 3  ->  3
+	END: 7  ->  7
+	INT: 8  ->  8
+	EDU: 9  ->  9
+	SOC: 9  ->  9
+
+	Served 1 terms in the Navy
+
+	Status: Forced Out
+
+	Skills
+
+	Halberd: 1
+	Navigation: 1
+
+	Cash: $5000
+
+	History
+
+	Term 0 Events
+
+	Term 1 Events
+		Navigation
+		Halberd
+		Failed to reenlist
+		Mustered Out
+		  5000

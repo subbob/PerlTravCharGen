@@ -71,7 +71,8 @@ my %Ranks = (
 						4 => "Lt Colonel",
 						5 => "Colonel",
 						6 => "Brigadier"
-						},			Army => 	{
+						},
+			Army => 	{
 						0 => "",
 						1 => "Lieutenant",
 						2 => "Captain",
@@ -79,7 +80,8 @@ my %Ranks = (
 						4 => "Lt Colonel",
 						5 => "Colonel",
 						6 => "General"
-						},			Scouts => 	{
+						},
+			Scouts => 	{
 						0 => ""
 						},
 			Other => 	{
@@ -1033,11 +1035,67 @@ sub newCharacter
 		die "Invalid arguments to new Character in Traveller::Character\n";
 	}
 		
-	chomp(my $_DC = `date /T`);
+	#chomp(my $_DC = `DATE T`);
+  (my $Second, my $Minute, my $Hour, my $Day, my $Month, my $Year, my $WeekDay, my $DayOfYear, my $IsDST) = localtime(time);
+  
+  my $realmonth = $Month+1;
+  my $realday = $Day;
+
+  my $stram;
+  if ($Hour > 11 )
+  {
+    $stram = "pm";
+  }
+  else
+  {
+    $stram = "am";
+  }
+
+  if ($Hour == 0)
+  {
+    $Hour = $Hour + 12;
+  }
+  if ($Hour > 12)
+  {
+    $Hour = $Hour - 12;
+    $Hour = '0' . $Hour;
+  }
+  if ($Minute < 10)
+  {
+  	$Minute = "0" . $Minute;
+  }
+  if ($Second < 10)
+  {
+  	$Second = "0" . $Second;
+  }
+
+  if ($Day < 10)
+  {
+  	$realday = "0" . $realday;
+  }
+
+  if ($realmonth < 10)
+  {
+  	$realmonth = "0". $realmonth;
+  }
+
+  my $realyear = $Year + 1900;
+  
+  my @days = qw/Mon Tue Wed Thur Fri Sat Sun/;
+  
+  my $realweekday = $days[$WeekDay];
+
+  
+  my $_DC = $realweekday . ' ' . $realday . '/' . $realmonth . '/' . $realyear;
+
 
 	my $_DateID = substr ($_DC,4,2) . substr ($_DC,7,2) . substr ($_DC,10,4);
 	
-	chomp(my $_TC = `time /T`);
+	#print "$_DC\n $_DateID\n";
+	#exit 0;
+	
+	#chomp(my $_TC = `time /T`);
+	my $_TC = $Hour . ':' . $Minute . ' ' . $stram;
 	
 	my $_TimeID = substr($_TC,0,2).substr($_TC,3,2);	
 	

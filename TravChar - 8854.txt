@@ -1,0 +1,70 @@
+	Lt Colonel Bari Adams (Female) 30 years old
+
+	Created at 
+
+	Enlisted in the Army
+
+	STR: 7  ->  7
+	DEX: C  ->  C
+	END: 9  ->  9
+	INT: 4  ->  4
+	EDU: 6  ->  6
+	SOC: 4  ->  4
+
+	Served 3 terms in the Army, Rank: Lt Colonel (4)
+
+	Status: Forced Out
+
+	Skills
+
+	Aircraft: 1
+	Automatic Rifle: 1
+	Cudgel: 1
+	Foil: 1
+	Fwd Obs: 1
+	Mechanical: 1
+	Revolver: 1
+	Rifle: 1
+	Submachinegun: 1
+	Watercraft: 1
+
+	Cash: $20000
+
+	Equipment
+
+		Laser Carbine: 1
+
+
+	History
+
+	Term 0 Events
+		ServiceSkills: Gained service skill: Rifle
+
+	Term 1 Events
+		Commissioned
+		Promoted to Rank 1 (Lieutenant)
+		RankSkills: Gained service rank skill: Submachinegun
+		Promoted to Rank 2 (Captain)
+		Foil
+		Watercraft
+		Mechanical
+		Cudgel
+		Successfully reenlisted
+
+	Term 2 Events
+		Promoted to Rank 3 (Major)
+		Fwd Obs
+		Revolver
+		Successfully reenlisted
+
+	Term 3 Events
+		Promoted to Rank 4 (Lt Colonel)
+		Automatic Rifle
+		Aircraft
+		Failed to reenlist
+		Mustered Out
+		  Low Psg
+		  10000
+		  10000
+		  Mid Psg
+		  Gun: Laser Carbine
